@@ -194,8 +194,7 @@ mais fácil possíveis alterações futuras*/
     width: 1280px;
     height: 660px;
     left: 1px;
-    top: 898px;
-  
+    top: 784px;
     background: #64f0b9;
   }
   .conteudo {
@@ -204,6 +203,7 @@ mais fácil possíveis alterações futuras*/
     height: 678px;
     left: 121px;
     top: -114px;
+    z-index: 1;
   
     background: #ffffff;
     border-radius: 21px;
@@ -367,20 +367,21 @@ mais fácil possíveis alterações futuras*/
     transform: rotate(0.03deg);
   }
   .principal {
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 823px;
     left: 0px;
     top: 75px;
   }
   #imagem-principal {
-     
+    
     width: 1280px;
     height: 823px;
     left: 0px;
     top: 75px;
   
-    background: url(camilo-jimenez-qZenO_gQ7QA-unsplash.jpg);
+    background: url(../img/02\ -\ background\ inicio\ -\ camilo-jimenez-qZenO_gQ7QA-unsplash\ 1.png);
+    background-size: contain;
   }
   .subtitulop {
     position: absolute;
