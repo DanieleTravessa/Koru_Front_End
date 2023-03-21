@@ -57,6 +57,88 @@ mais fácil possíveis alterações futuras*/
 
 /*JONATHAN*/
 
+div.pai {
+    width: 100%;
+    height: 446px;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+div.filho1 {
+    width: 150px;
+    height: 200px;
+    
+}
+
+div.filho2 {
+    width: 150px;
+    height: 200px;
+   
+}
+
+div.filho3 {
+    width: 150px;
+    height: 200px;
+    
+}
+
+div.filho4 {
+    width: 150px;
+    height: 200px;
+    
+}
+
+div.neto1 {
+    width: 150px;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.neto2 {
+    width: 150px;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.neto3 {
+    width: 150px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.bisneto1 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.quemsomosfinal{
+
+background-color: var(--color5);
+width: 100%;
+height: 416px;
+left: 0px;
+top: 2750px;
+
+}
+
+.retangulobotaoj{
+
+background-color: var(--color6);
+width: 149px;
+height: 46px;
+left: 566px;
+top: 3020px;
+border-radius: 28px;
+}
 
 /*YAN*/
