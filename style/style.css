@@ -17,6 +17,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    color: var(--color2);
 }
   
 h1, h2{
@@ -57,88 +58,142 @@ mais fácil possíveis alterações futuras*/
 
 /*JONATHAN*/
 
-div.pai {
+div.dadosEstatisticas {
     width: 100%;
     height: 446px;
     background-color: var(--color1);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-div.filho1 {
-    width: 150px;
-    height: 200px;
-    
+div.dadosUnidade {
+    width: 160px;
+    height: 250px;
 }
 
-div.filho2 {
-    width: 150px;
-    height: 200px;
-   
+div.dadosUnidade:not(:last-child) {
+  margin-right: 150px;
 }
 
-div.filho3 {
-    width: 150px;
-    height: 200px;
-    
-}
-
-div.filho4 {
-    width: 150px;
-    height: 200px;
-    
-}
-
-div.neto1 {
-    width: 150px;
-    height: 40%;
+div.dadosIcone {
+    width: 100%;
+    height: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.neto2 {
-    width: 150px;
-    height: 40%;
+span.material-symbols-outlined {
+  font-size: 60px;
+  color: var(--color2);
+}
+
+div.dadosTitulo {
+    width: 100%;
+    height: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.neto3 {
-    width: 150px;
-    height: 20%;
+div.dadosTitulo h1 {
+  color: var(--color6);
+}
+
+div.dadosParagrafo {
+    width: 100%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.bisneto1 {
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    border-radius: 50%;
+div.dadosParagrafo p {
+  text-align: center;
 }
 
-.quemsomosfinal{
+/*QUEM SOMOS*/
 
-background-color: var(--color5);
-width: 100%;
-height: 416px;
-left: 0px;
-top: 2750px;
-
+div.quemSomosBackground {
+  width: 100%;
+  height: 744px;
+  background-color: var(--color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.retangulobotaoj{
+div.quemSomosConteudo {
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 75px;
+}
 
+div.quemSomosConteudo p {
+  color: var(--color1);
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+h2.quemSomosTitulo {
+  color: var(--color5);
+}
+
+h2.quemSomosTituloGrifado {
+  color: var(--color1);
+  background-color: var(--color6);
+  padding: 5px;
+  border-radius: 10px;
+  width: 295px;
+  margin-bottom: 28px;
+}
+
+div.qrCode {
+  width: 100%;
+  height: 238px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.qrCode img {
+  width: 238px;
+}
+
+/*QUEM SOMOS CTA*/
+
+.quemsomoscta {
+  background-color: var(--color5);
+  width: 100%;
+  height: 416px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.quemsomoscta p {
+  margin-bottom: 24px;
+}
+
+a.quemsomosctaLink {
 background-color: var(--color6);
 width: 149px;
 height: 46px;
-left: 566px;
-top: 3020px;
+margin-top: 30px;
 border-radius: 28px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+color: var(--color1);
 }
 
 /*YAN*/
