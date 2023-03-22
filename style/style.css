@@ -17,6 +17,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
     color: var(--color2);
 }
   
@@ -26,7 +27,7 @@ h1, h2{
 }
 
 h1{
-    font-size: 55px;
+    font-size: 50px;
 }
 
 h2{
@@ -53,7 +54,271 @@ mais fácil possíveis alterações futuras*/
 /*------ALTERAR A PARTIR DAQUI------*/
 
 /*DANI*/
+/*HEADER*/
+#header {
+  width: 100%;
+  height: 75px;
+  background-color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;  
+}
+  
+#logo {
+    width: 137px; 
+}
 
+#links {
+  width: 423px;
+  height: 75px;
+  margin-left: 179px;
+  margin-right: 179px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+#linkHeader {
+    width: 55px;
+    height: 21px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: var(--color2);
+}
+
+div.redes-sociais {
+  width: 152px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a#redeHeader {
+  width: 46px;
+  height: 46px;
+}
+
+a#redeHeader img{
+    width: 46px;
+    height: 46px;
+}
+
+/*MAIN*/
+main {
+  margin: 0;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+div.conteudoMain {
+  width: 500px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+div.paragrafosHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+div.saibaMaisHeader{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#botao {
+    width: 149.23px;
+    height: 46px;
+    border-radius:18px;
+    margin-right: 30px;
+    font-family: "Roboto";
+    font-size: 18px;
+    background: #64F0B9;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+/*Formulário*/
+.form {
+    width: 448.6px;
+    height: 450px;
+    background: var(--color4);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputForm {
+  width: 375px;
+  height: 37px;
+  border-radius: 28px;
+  background-color: var(--color2);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-bottom: 27px;
+  padding-left: 20px;
+}
+
+.inputForm::placeholder, .inputMessageForm::placeholder {
+  color: var(--color3);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.inputMessageForm {
+  width: 375px;
+  height: 88px;
+  border-radius: 18px;
+  background-color: var(--color2);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-bottom: 27px;
+  padding-left: 20px;
+}
+
+.buttonPosition {
+  width: 375px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonForm{
+    width: 148.77px;
+    height: 46px;
+    border-radius:18px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: var(--color2);
+    color: #65338C;
+    border-color: var(--color5);
+    border-style: solid;
+    border-width: 3px;
+}
+
+/*Vantagens de usar nosso APP*/
+
+.backgroundVantagens {
+  width: 100%;
+  height: 660px;
+  background: #64f0b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ }
+
+.window {
+  width: 1038px;
+  height: 678px;
+  background-color: var(--color2);
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -90px;
+}
+
+div.conteudo {
+  width: 330px;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vantagensImagem {
+  margin-right: 77px;
+}
+
+#imagemVantagens {
+  width: 504.26px;
+  height: 504.26px;
+}
+
+div.conteudo h2 {
+  color: var(--color5);
+}
+
+div.conteudo h3 {
+  color: var(--color1);
+}
+
+div.conteudo p {
+  color: var(--color3);
+}
+
+.parContVant {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+span.material-symbols-outlined {
+  font-size: 46px;
+  color: var(--color3);
+}
+
+.vantagensGeral {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vantagensUnidade {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textosIconeVantagens {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+}
 
 
 /*JONATHAN*/
