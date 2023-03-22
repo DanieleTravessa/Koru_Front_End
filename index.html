@@ -9,76 +9,103 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>       
         <header id="header">
-            <div id="header_container">
-                <img id="logo" src="C:\Users\Daniele\Documents\GitHub\landingPage-BN\img\01 - logo.png" alt="Logo Business News">
-            </div>
+            <img id="logo" src="img/logoPrincipal.png" alt="Logo Business News">
             <div id="links">
-                <a id="link1" href="">Lorem</a>
-                <a id="link2" href="">Lorem</a>
-                <a id="link3" href="">Lorem</a>
-                <a id="link4" href="">Lorem</a>
-                <a id="link5" href="">Lorem</a>
+                <a id="linkHeader" href="#">Lorem</a>
+                <a id="linkHeader" href="#">Lorem</a>
+                <a id="linkHeader" href="#">Lorem</a>
+                <a id="linkHeader" href="#">Lorem</a>
+                <a id="linkHeader" href="#">Lorem</a>
             </div>
             <div class="redes-sociais">
-                <a id="rede1" href=""><img src="" alt=""></a>
-                <a id="rede2" href=""><img src="" alt=""></a>
-                <a id="rede3" href=""><img src="" alt=""></a>
+                <a id="redeHeader" href="#"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
+                <a id="redeHeader" href="#"><img src="img/instagram.png" alt="Logo Instagram"></a>
+                <a id="redeHeader" href="#"><img src="img/facebook.png" alt="Logo Facebook"></a>
             </div>
         </header>
         <main>
-            <div class="amostra">
-                <div class="janela">
-                    <div class="conteudo">
-                        <h1 id="titulo">Lorem ipsum dolor sit amet</h1>
-                        <h2 id="subtitulo">Lorem ipsum</h2>
-                        <h3 id="subtitulo1">Lorem</h3>
-                        <a id="rede_social1" href=""><img src="" alt=""></a>
-                        <p id="descricao1">Lorem ipsum dolor sit amet</p>
-                        <h3 id="subtitulo2">Lorem</h3>
-                        <a id="rede_social2" href=""><img src="" alt=""></a>
-                        <p id="descricao2">Lorem ipsum dolor sit amet</p>
-                        <h3 id="subtitulo3">Lorem</h3>
-                        <a id="rede_social3" href=""><img src="" alt=""></a>
-                        <p id="descricao3">Lorem ipsum dolor sit amet</p>
-                        <img id="imagem" src="C:\Users\Daniele\Documents\GitHub\landingPage-BN\img\03 - mockupAPP.png" alt="">       
-                    </div>
-                </div>  
-            </div>
-              
-            <div class="principal">
-                <img id="imagem-principal" src="C:\Users\Daniele\Documents\GitHub\landingPage-BN\img\02 - background inicio - camilo-jimenez-qZenO_gQ7QA-unsplash 1.png" alt="">
-                <h2 class="subtitulop">Lorem ipsum dolor sit amet</h2>
-                <h2 class="titulo1">Lorem ips  um dolor sit amet</h2>
-                <button id="botao" type="submit">Botão</button>
-                <h3 id="subtitulo-botao">Lorem ipsum dolor sit amet</h3>
-                <img src="" alt="">
-                
-                <div class="formulario">
-                    <form class="form" action="" method="post">
-                        <div id="campo1">
-                            <label for=""></label>
-                            <input id="c1" type="text" id="" value="" placeholder="Lorem ipsum">
-                        </div>
-                        <div id="campo2">
-                            <label for=""></label>
-                            <input id="c2" type="text" id="" value="" placeholder="Lorem ipsum">
-                        </div>
-                        <div id="campo3">
-                            <label for=""></label>
-                            <input id="c3" type="text" id="" value="" placeholder="Lorem ipsum">
-                        </div>
-                        <div id="campo4">
-                            <label for=""></label>
-                            <input id="c4" type="text" id="" value="" placeholder="Lorem ipsum">       
-                        </div>
-                        <button class="button" type="submit">Botão</button>                
-                    </form>
+
+            <img src="img/inicioBackground.png" alt="">
+
+            <div class="conteudoMain">
+                <div class="paragrafosHeader">
+                    <p>Informação para pessoas</p>
+                    <p>Resultado para empresas</p>
+                    <h1>Seu app de notícias na palma da mão</h1>
+                </div>
+                <div class="saibaMaisHeader">
+                    <a href="#">
+                        <button id="botao" type="submit">Saiba Mais</button>
+                    </a>
+                    <p>Assista nosso vídeo institucional</p>
                 </div>
             </div>
+                
+            <form class="form" action="" method="post">
+                <input class="inputForm" id="c1" type="text" id="" value="" placeholder="Nome">
+                <input class="inputForm" id="c2" type="text" id="" value="" placeholder="Email">
+                <input class="inputForm" id="c3" type="text" id="" value="" placeholder="Nome da Empresa">
+                <input class="inputMessageForm" id="c4" type="text" value="" placeholder="Digite sua mensagem">
+                <div class="buttonPosition">
+                    <a href="#">
+                        <button class="buttonForm" type="submit">Enviar</button>
+                    </a>
+                </div>                
+            </form>
         </main>
+        
+        <div class="backgroundVantagens">
+            <div class="window">
+                <div class="vantagensImagem">
+                    <img id="imagemVantagens" src="img/mockupAPP.png" alt="">
+                </div>
+                <div class="conteudo">
+                    <div class="parContVant">
+                        <p>Business News</p>
+                    </div>
+                    <h2 id="titulo">Vantagens de usar nosso app</h2>
+                    <div class="vantagensGeral">
+                        <div class="vantagensUnidade">
+                            <span class="material-symbols-outlined">
+                                feed
+                            </span>
+                            <div class="textosIconeVantagens">
+                                <h3>Informação é poder</h3>
+                                <p>Pessoas bem informadas fazem a diferença no sucesso da empresa</p>
+                            </div>
+                        </div>
+                        <div class="vantagensUnidade">
+                            <span class="material-symbols-outlined">
+                                schedule
+                            </span>
+                            <div class="textosIconeVantagens">
+                                <h3>Economia de tempo</h3>
+                                <p>Informação do mundo dos negócios em real time na palma da mão</p>
+                            </div>
+                        </div>
+                        <div class="vantagensUnidade">
+                            <span class="material-symbols-outlined">
+                                trending_up
+                            </span>
+                            <div class="textosIconeVantagens">
+                                <h3>Performance</h3>
+                                <p>Crescimento e impulsionamento pessoal e profissional da equipe</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>  
+        </div>
+
+
+
+
+
+
         <script src="script/script.js"></script>
     </body>
 </html>
