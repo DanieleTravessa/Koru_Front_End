@@ -72,23 +72,27 @@ mais fácil possíveis alterações futuras*/
     width: 137px; 
 }
 
-#links {
-  width: 423px;
+div#links {
+  width: 550px;
   height: 75px;
-  margin-left: 179px;
-  margin-right: 179px;
+  margin-left: 80px;
+  margin-right: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   
-#linkHeader {
-    width: 55px;
-    height: 21px;
+a#linkHeader {
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: var(--color2);
+    text-align: left;
+    transition: 0.2s linear;
+}
+
+a#linkHeader:hover {
+  color: var(--color6);
 }
 
 div.redes-sociais {
@@ -97,6 +101,7 @@ div.redes-sociais {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 15px;
 }
 
 a#redeHeader {
@@ -153,17 +158,25 @@ div.saibaMaisHeader{
   justify-content: flex-start;
 }
 
-#botao {
-    width: 149.23px;
-    height: 46px;
-    border-radius:18px;
-    margin-right: 30px;
-    font-family: "Roboto";
-    font-size: 18px;
-    background: #64F0B9;
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+a.saibaMaisHeaderBotao {
+  background-color: var(--color6);
+  width: 149px;
+  height: 46px;
+  margin-right: 30px;
+  border-radius: 28px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: var(--color1);
+  transition: 0.2s linear;
+}
+
+a.saibaMaisHeaderBotao:hover {
+  background-color: var(--color5);
+  color: var(--color2);
 }
 
 /*Formulário*/
@@ -248,7 +261,7 @@ div.saibaMaisHeader{
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -90px;
+  top: -80px;
 }
 
 div.conteudo {
@@ -354,6 +367,12 @@ span.material-symbols-outlined {
   color: var(--color2);
 }
 
+/*SPAN DA SESSÃO DE VANTAGENS*/
+span.material-symbols-outlined1 {
+  font-size: 46px;
+  color: var(--color3);
+}
+
 div.dadosTitulo {
     width: 100%;
     height: 35%;
@@ -450,7 +469,7 @@ a.quemsomosctaLink {
 background-color: var(--color6);
 width: 149px;
 height: 46px;
-margin-top: 30px;
+margin-top: 35px;
 border-radius: 28px;
 text-decoration: none;
 display: flex;
@@ -459,6 +478,12 @@ justify-content: center;
 font-family: 'Roboto', sans-serif;
 font-size: 18px;
 color: var(--color1);
+transition: 0.2s linear;
+}
+
+a.quemsomosctaLink:hover {
+  background-color: var(--color2);
+  color: var(--color5);
 }
 
 /*YAN*/

@@ -11,15 +11,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
-    <body>       
+    <body>    
+        <!--HEADER-->   
         <header id="header">
             <img id="logo" src="img/logoPrincipal.png" alt="Logo Business News">
             <div id="links">
-                <a id="linkHeader" href="#">Lorem</a>
-                <a id="linkHeader" href="#">Lorem</a>
-                <a id="linkHeader" href="#">Lorem</a>
-                <a id="linkHeader" href="#">Lorem</a>
-                <a id="linkHeader" href="#">Lorem</a>
+                <a id="linkHeader" href="#faleConosco">Contato</a>
+                <a id="linkHeader" href="#vantagens">Vantagens</a>
+                <a id="linkHeader" href="#dados">Dados</a>
+                <a id="linkHeader" href="#quemSomos">Empresa</a>
+                <a id="linkHeader" href="#">Depoimentos</a>
             </div>
             <div class="redes-sociais">
                 <a id="redeHeader" href="#"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
@@ -27,8 +28,9 @@
                 <a id="redeHeader" href="#"><img src="img/facebook.png" alt="Logo Facebook"></a>
             </div>
         </header>
-        <main>
 
+        <!--MAIN-->
+        <main id="faleConosco">
             <img src="img/inicioBackground.png" alt="">
 
             <div class="conteudoMain">
@@ -38,13 +40,12 @@
                     <h1>Seu app de notícias na palma da mão</h1>
                 </div>
                 <div class="saibaMaisHeader">
-                    <a href="#">
-                        <button id="botao" type="submit">Saiba Mais</button>
-                    </a>
+                    <a class="saibaMaisHeaderBotao" href="https://drive.google.com/file/d/1lVNu5f8jKTmzOJbM67HmV2fF-aLcb4YS/view?ts=640b720e">Saiba Mais</a>
                     <p>Assista nosso vídeo institucional</p>
                 </div>
             </div>
                 
+            <!--FORM-->
             <form class="form" action="" method="post">
                 <input class="inputForm" id="c1" type="text" id="" value="" placeholder="Nome">
                 <input class="inputForm" id="c2" type="text" id="" value="" placeholder="Email">
@@ -58,7 +59,8 @@
             </form>
         </main>
         
-        <div class="backgroundVantagens">
+        <!--VANTAGENS-->
+        <div class="backgroundVantagens" id="vantagens">
             <div class="window">
                 <div class="vantagensImagem">
                     <img id="imagemVantagens" src="img/mockupAPP.png" alt="">
@@ -70,7 +72,7 @@
                     <h2 id="titulo">Vantagens de usar nosso app</h2>
                     <div class="vantagensGeral">
                         <div class="vantagensUnidade">
-                            <span class="material-symbols-outlined">
+                            <span class="material-symbols-outlined material-symbols-outlined1">
                                 feed
                             </span>
                             <div class="textosIconeVantagens">
@@ -79,7 +81,7 @@
                             </div>
                         </div>
                         <div class="vantagensUnidade">
-                            <span class="material-symbols-outlined">
+                            <span class="material-symbols-outlined material-symbols-outlined1">
                                 schedule
                             </span>
                             <div class="textosIconeVantagens">
@@ -88,7 +90,7 @@
                             </div>
                         </div>
                         <div class="vantagensUnidade">
-                            <span class="material-symbols-outlined">
+                            <span class="material-symbols-outlined material-symbols-outlined1">
                                 trending_up
                             </span>
                             <div class="textosIconeVantagens">
@@ -102,7 +104,7 @@
         </div>
         
         <!-- DADOS E ESTATÍSTICAS-->
-        <div class="dadosEstatisticas">
+        <div class="dadosEstatisticas" id="dados">
             <div class="dadosUnidade">
                 <div class="dadosIcone">
                     <span class="material-symbols-outlined">
@@ -158,7 +160,7 @@
         </div>
     
         <!--QUEM SOMOS-->
-        <div class="quemSomosBackground">
+        <div class="quemSomosBackground" id="quemSomos">
             <div class="quemSomosConteudo">
                 <p>Quem somos</p>
                 <div class="quemSomosTitulosContainer">
