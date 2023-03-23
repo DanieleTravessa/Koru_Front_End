@@ -20,7 +20,7 @@
                 <a id="linkHeader" href="#vantagens">Vantagens</a>
                 <a id="linkHeader" href="#dados">Dados</a>
                 <a id="linkHeader" href="#quemSomos">Empresa</a>
-                <a id="linkHeader" href="#">Depoimentos</a>
+                <a id="linkHeader" href="#depoimentos">Depoimentos</a>
             </div>
             <div class="redes-sociais">
                 <a id="redeHeader" href="#"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
@@ -186,69 +186,98 @@
         </div>
         
         <!--Depoimentos-->
-        <div class="mae">
-            <img src="img/06 - background sobre nós - glenn-carstens-peters-P1qyEf1g0HU-unsplash 1.png">
-            
-            <div class="filha1">
-                <h4>Lorem ipsum</h4>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <h4>Lorem ipsum</h4>
-                <h4>Lorem ipsum dolor sit amet consectetur. Ac faucibus sed est fermentum consectetur pulvinar quis. In in ipsum eu gravida nulla amet. Sed sed nunc donec fusce purus. Pellentesque enim.</h4>
-            </div>
+        <div class="mae" id="depoimentos">
+            <img class="depoimentosBackground" src="img/depoimentosBackground.png">
 
             <div class="filha2">
-                <div class="box1"></div>
-                <p>“ Lorem ipsum dolor sit amet consectetur. Pellentesque nunc cras nec sapien. Amet tincidunt commodo maecenas nisi. Risus parturient in ac iaculis. Quis felis phasellus euismod cursus nibh tristique diam. In viverra pulvinar congue hendrerit molestie. Facilisis ut fermentum urna lectus imperdiet. Ac sit et purus sit enim sed ac. Massa amet fermentum varius morbi nullam aliquet. Ipsum vulputate ac rhoncus commodo sed elit sit purus leo.” </p>
-                <h3>Sara Oliveira</h3>
-                <h4>CEO Tech Solutions</h4>
-                
-                <img src="img/07 - foto perfil personajunior-reis-GVsO8wqNuAw-unsplash 1.png">
+                <div class="containerSpanDepoimentos">
+                    <img class="depoimentosAspas" src="img/aspas.png" alt="">
+                </div>
+                <div class="depoimentosPerfilContainer"></div>
+                <div class="depoimentosPerfilParagrafo">
+                    <p>“ Gostaria de expressar minha gratidão à equipe da "Business News" pelo incrível aplicativo de notícias que eles desenvolveram. Desde que comecei a usá-lo, tenho me mantido atualizada com as últimas notícias relacionadas ao meu setor de negócios, o que me permitiu tomar decisões mais informadas e estratégicas. Além disso, o aplicativo é intuitivo e fácil de usar, o que o torna uma ferramenta indispensável para a minha empresa. ”</p>
+                </div>
+                <div class="depoimentosPerfilContainer">
+                    <img class="depoimentosPerfilFoto" src="img/fotoPerfil1.png">
+                    <div class="depoimentosPerfilContainerTitulos">
+                        <h3>Sara Oliveira</h3>
+                        <p>CEO Tech Solutions</p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <span class="material-symbols-outlined depoimentosSetas">
+                        arrow_circle_left
+                    </span>
+                    <span class="material-symbols-outlined depoimentosSetas">
+                        arrow_circle_right
+                    </span>
+                </div>
             </div>
 
-            <div class="box2"></div>
-
-            <div class="filha3">
-                <h3>Newslatter</h3>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <form>
-                    <div id="formulario">
-                        <input type="email" id="email">
-                        <label for="email"></label>
-                    </div>                   
-
-                    <input type="submit" value="enviar" id="botao">
-                </form>             
+            <div class="filha1">
+                <div>
+                    <p class="depoimentosParagrafo1">Depoimentos</p>
+                    <h2>O que dizem<br>sobre nós</h2>
+                </div>
+                <p>A opinião dos nossos usuários é muito importante, por isso trouxemos alguns deles para contarem um pouco de suas experiências com o app.</p>
             </div>
-
         </div>
         
-        <!--FOOTER-->
+        <!--FOOTER GERAL-->
+
         <footer class="rodape">
 
-            <img src="img/01 - logo.png">
-            <p>Lorem ipsum dolor sit amet consectetur. Ac faucibus sed est fermentum consectetur pulvinar quis. In in ipsum eu gravida nulla amet. Sed sed.</p>
-
-            <h4>Menu</h4>
-
-            <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-            </ul>
-
-            <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-            </ul>
-
-            <h5>Redes Sociais</h5>
-
-            <div class="icones">
-                <div class="circulo1"></div>
-                <div class="circulo2"></div>
-                <div class="circulo3"></div>
+            <!--NEWSLETTER-->
+            <div class="newsletterContainer">
+                <div class="newsletterTitulos">
+                    <h2>Newsletter</h2>
+                    <p>Fique por dentro das nossas notícias</p>
+                </div>
+                <form class="newsletterForm"> 
+                    <input class="inputForm" type="email" id="email" placeholder="Digite seu email">
+                    <a class="botaoFooterEnviar" href="#">Enviar</a>
+                </form>          
             </div>
 
+            <!--FOOTER-->
+            <div class="footerContent">
+                <div class="footerContentLogo">
+                    <img class="footerLogo" src="img/logoPrincipal.png">
+                <p>Tome decisões sobre mercado, concorrência, desenvolvimento de produtos e estratégias de marketing pautadas em dados, informações e análises.</p>
+                </div>
+                <div class="footerContentMenu">
+                    <h3>Menu</h3>
+                    <div class="footerContentMenuUl">
+                        <ul>
+                            <a id="linkHeader" href="#faleConosco">Contato</a><br>
+                            <a id="linkHeader" href="#vantagens">Vantagens</a><br>
+                            <a id="linkHeader" href="#dados">Dados</a><br>
+                        </ul>
+    
+                        <ul>
+                            <a id="linkHeader" href="#quemSomos">Empresa</a><br>
+                            <a id="linkHeader" href="#depoimentos">Depoimentos</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerContentRedes">
+                    <h3>Redes Sociais</h3>
+                    <div class="redes-sociais redes-sociaisFooter">
+                        <a id="redeHeader" href="#"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
+                        <a id="redeHeader" href="#"><img src="img/instagram.png" alt="Logo Instagram"></a>
+                        <a id="redeHeader" href="#"><img src="img/facebook.png" alt="Logo Facebook"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCopy">
+                <div class="footerCopyLeft">
+                    <p>© 2023 Business News</p>
+                </div>
+                <div class="footerCopyRight">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Políticas de Privacidade</a>
+                </div>
+            </div>
         </footer>
 
         <script src="script/script.js"></script>

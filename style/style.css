@@ -484,6 +484,15 @@ a.quemsomosctaLink:hover {
   color: var(--color5);
 }
 
+
+
+
+
+
+
+
+
+
 /*YAN*/
 
 div.mae {
@@ -492,287 +501,261 @@ div.mae {
     display: flex;
     position: relative;
     align-items: center;
+    justify-content: center;
 }
 
-img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 1025px;
-    display: flex;
-    align-items: center;
+img.depoimentosBackground {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
 
 div.filha1 {
-    position: absolute;
-    height: 319px;
+    height: 250px;
     width: 420px;
-    left: 740px;
-    top: 200px;
-    color: var(--color2)
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.filha1 h3{
-    margin-top: 21.28px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
-}
-
-.filha1 h4{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+p.depoimentosParagrafo1 {
+  margin-bottom: 20px;
 }
 
 .filha2 {
-    position: absolute;
     height: 500px;
     width: 500px;
-    left: 124px;
-    top: 100px;
     border-radius: 33px;
     background-color: var(--color2);
-    color: var(--color1);
+    margin-right: 116px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
+/*div.containerSpanDepoimentos {
+  width: 100%;
+  height: 120px;
+  background-color: red;
+}*/
 
-div.box1{
-    position: relative;
-    width: 71px;
-    height: 57px;
-    left: 25px;
-    top: 25px;
-    margin-left:5px;
-    margin-top: 5px;
-    border: solid var(--color3);
+img.depoimentosAspas {
+  width: 110px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
 
-.filha2 p{
-    position: relative;
-    height: 207px;
-    width: 394px;
-    top: 25px;
-    left: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 15px;
+div.depoimentosPerfilParagrafo {
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.filha2 img{
-    position: relative;
-    height: 97px;
-    width: 97px;
-    left: 5%;
-    top: -2%;
-    border-radius: 100px;
+div.depoimentosPerfilParagrafo p {
+  color: var(--color1);
 }
 
-.filha2 h3{
-    position: relative;
-    height: 21px;
-    width: 104px;
-    left: 27%;
-    top: 18%;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+div.depoimentosPerfilContainer {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.filha2 h4{
-    position: relative;
-    height: 18px;
-    width: 158px;
-    left: 27%;
-    top: 15%;
-    border-radius: 0px;
+img.depoimentosPerfilFoto {
+  margin: 0 34px;
+}
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+div.depoimentosPerfilContainerTitulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div.depoimentosPerfilContainerTitulos h3, div.depoimentosPerfilContainerTitulos p {
+  color: var(--color1);
 }
 
 .box2 {
     position: absolute;
-    height: 44px;
-    width: 103px;
-    left: 483px;
-    top: 615px;
-    border-radius: 0px;
-    border: solid var(--color3)
+    height: 60px;
+    width: 100px;
+    left: 370px;
+    top: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.filha3 {
+span.depoimentosSetas {
+  font-size: 44px;
+  color: var(--color4);
+}
+
+/*FOOTER*/
+footer.rodape {
+  width: 100%;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color1);
+  position: relative;
+}
+
+.footerContent {
+  width: 100%;
+  height: 421px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div.footerContentLogo {
+  width: 27%;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+img.footerLogo {
+  width: 137px;
+  margin-left: -15px;
+}
+
+div.footerContentMenu {
+  width: 20%;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.footerContentMenuUl {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.footerContentRedes {
+  width: 20%;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.redes-sociaisFooter {
+  margin-right: 0;
+  margin-top: 7px;
+}
+
+.footerCopy {
+  width: 87%;
+  height: 75px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.footerCopyLeft {
+  
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.footerCopyRight {
+  
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.footerCopyLeft p {
+  color: var(--color6);
+}
+
+div.footerCopyRight a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--color5);
+  text-align: left;
+  margin-left: 25px;
+}
+
+/*NEWSLETTER*/
+div.newsletterContainer {
     position: absolute;
     width: 1043px;
     height: 185px;
-    left: 117px;
-    top: 60%;
+    top: -92.5px;
     background-color: var(--color5);
     border-radius: 25px;
-    padding: 0;
-    margin-top: 150px;
-    color: var(--color2)
-}
-
-.filha3 #formulario {
-    position: relative;
-    width: 285px;
-    height: 37px;
-    left: 652px;
-    top: -45px;
-    border-radius: 5px;
-}
-
-.filha3 h3{
-    position: relative;
-    left: 5%;
-    right: 67.58%;
-    top: 25%;
-    bottom: 10.9%;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
-}
-
-.filho3 h4{
-    position: relative;
-    width: 227px;
-    height: 21px;
-    left: 5%;
-    top: 15%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-}
-
-.filha3 #botao{
-    position: relative;
-    width: 149px;
-    height: 46px;
-    left: 83%;
-    top: -97px;
-    border-radius: 28px;
-    background-color: var(--color6);
-}
-
-.rodape {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 496px;
-    align-items: center;
-    display: flex;
-    background-color: var(--color1);
-    color: var(--color2)
-}
-
-.rodape img{
-    position: relative;
-    height: 89px;
-    width: 137px;
-    left: 101px;
-    top: -80px;
-}
-
-.rodape p{
-    position: relative;
-    height: 82px;
-    width: 420px;
-    left: -20px;
-    top: 5px;
-}
-
-.rodape h4{
-    position: relative;
-    height: 21px;
-    width: 57px;
-    left: 80px;
-    top: -70px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-}
-
-.rodape ul{
-    position: relative;
-    height: 87px;
-    width: 53px;
-    left:-18px;
-    top: 10px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    list-style: none;
-}
-
-.rodape h5{
-    position: relative;
-    height: 21px;
-    width: 200px;
-    left: 220px;
-    top: -69px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-}
-
-div.icones {
-    position: relative;
-    width: 200px;
-    height: 50px;
+    color: var(--color2);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 15px;
+    justify-content: space-around;
 }
 
-div.circulo1{
-    position: relative;
-    height: 46px;
-    width: 46px;
-    border-radius: 50%;
-    background-color: var(--color2);
-    margin-left: 10px;
+div.newsletterTitulos {
+  width: 300px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-div.circulo2{
-    position: relative;
-    height: 46px;
-    width: 46px;
-    border-radius: 50%;
-    background-color: var(--color2)
+form.newsletterForm {
+  width: 500px;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
-div.circulo3{
-    position: relative;
-    height: 46px;
-    width: 46px;
-    border-radius: 50%;
-    background-color: var(--color2)
+input#email {
+  width: 300px;
+  margin: 0;
+}
+
+.botaoFooterEnviar {
+  background-color: var(--color6);
+  width: 149px;
+  height: 46px;
+  border-radius: 28px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: var(--color1);
 }
