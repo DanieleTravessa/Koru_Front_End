@@ -1,0 +1,14 @@
+@media screen and (max-width: 1170px) {
+    #header {
+        background-color: green;
+    } /*isso é um exemplo*/
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    #header {
+        background-color: red;
+    } /*isso é um exemplo*/
+}
