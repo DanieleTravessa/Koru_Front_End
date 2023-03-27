@@ -2,13 +2,38 @@
     #header {
         background-color: green;
     } /*isso é um exemplo*/
+
+    div.newsletterContainer{
+        width:600px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    div.newsletterTitulos {
+        height: 100px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+    }
+
+    form.newsletterForm {
+        height: 62px;
+    }
+
+    div.footerContentMenuUl {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+
 }
 
-
-
-
 @media screen and (max-width: 600px) and (min-width: 375px){
+  
     #header {
         background-color: red;
     } /*isso é um exemplo*/
+
 }
+
