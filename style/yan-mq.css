@@ -1,14 +1,102 @@
 @media screen and (max-width: 1170px) and (min-width: 601px) {
-    #header {
-        background-color: green;
-    } /*isso é um exemplo*/
+
+    .footerContent {
+        display: flex;
+        align-items: center;
+    }
+
+    div.footerContentLogo {
+        width: 40%;
+        order: 1;
+        align-items: center;
+        text-align: center;
+      }
+
+    div.footerContentMenu {
+        width: 35%;
+        order: 3;
+    }
+
+    div.footerContentRedes {
+        width: 30%;
+        height: 30%;
+        align-self: flex-end;
+        order: 2;
+    }
+
+    /* container newsletter */
+
+    div.newsletterContainer{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 185px;
+    }
+
 }
-
-
-
 
 @media screen and (max-width: 600px) and (min-width: 375px){
-    #header {
-        background-color: red;
-    } /*isso é um exemplo*/
+
+    div.filha1 {
+        width: 100%;
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 863px;
+        background-color: var(--color1);
+    }
+
+    div.footerContentLogo {
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
+
+    div.footerContentMenu {
+        width: 70%;
+        height: 15%;
+    }
+
+    div.footerContentRedes {
+        width: 45%;
+    }
+    
+    .footerCopy{
+        width: 100%;
+        background-color: var(--color1);
+        text-align: center;
+    }
+
+    /* container newsletter */
+
+    div.newsletterContainer{
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        height: 185px;
+    }
+
+    div.newsletterTitulos {
+        height: 80px;
+        width:300px;
+    }
+
+    form.newsletterForm {
+        height: 37px;
+        width: 238px;
+        gap: 10px;
+    }
+
+    .botaoFooterEnviar {
+        height: 46px;
+        width: 149px;
+    }
+
+
 }
+
