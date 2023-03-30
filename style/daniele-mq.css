@@ -1,637 +1,182 @@
 @media screen and (max-width: 1170px) and (min-width: 601px) {
-#header {
-  background-color: green;
-} 
-/*isso Ã© um exemplo*/
-#header {
-  width: 170%;
-  height: 75px;
-  background-color: var(--color1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*position: fixed;*/
-  left: 0px;
-  top: 0px;
-  z-index: 1;  
-}
-
-/* TABLET */
-
-#logo {
-  width: 100px;
-}
-
-div#links {
-  width: 50%;
-  height: 75px;
-  margin-left: 1px;
-  margin-right: 850px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10 1px;
-}
-
-a#linkHeader {
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  color: var(--color2);
-  text-align: left;
-  transition: 0.2s linear;
-}
-
-a#linkHeader:hover {
-  color: var(--color6);
-}
-
-div.redes-sociais {
-  width: 10px;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 270px;
-}
-
-a#redeHeader {
-  width: 46px;
-  height: 46px;
-}
-    
-a#redeHeader img{
-  width: 46px;
-  height: 46px;
-}
-
-    /*MAIN*/
-main {
-  margin: -30px 0 0;
-  width: 100%;
-  height: 750px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #575757;
- }     
- 
- main img {
-   width: 100%;
-   position: relative;
-   z-index: -1;
-   top: 0;
-   display: none;
- }
-
-  div.conteudoMain {
-    width: 500px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 45px;
-    margin-top:-150px;
-    padding: 30px;
-  }
-  div.paragrafosHeader {
-    width: 60%;
-    margin-left: 251px; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex;
-    justify-content: space-between;
-  }
-
-  div.saibaMaisHeader {
-    width: 10%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  a.saibaMaisHeaderBotao {
-    background-color: var(--color6);
-    width: 400px;
-    height: 25px;
-    margin-left: 20px;
-    margin-right: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: var(--color1);
-    transition: 0.2s linear;
-  }
-   
-  a.saibaMaisHeaderBotao:hover {
-    background-color: var(--color5);
-    color: var(--color2);
-  }
-
-   
-/*FormulÃ¡rio*/
-  .form{
-    width: 270px;
-    height: 450px;
-    background: var(--color4);
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 260px;
-    margin-left: -50px;
-  }
-
-    .inputForm, input#email.inputForm {
-      width: 220px;
-      height: 37px;
-      border-radius: 28px;
-      background-color: var(--color2);
-      box-shadow: 0 0 0 0;
-      border: 0 none;
-      outline: 0;
-      margin-bottom: 27px;
-      padding-left: 20px;
+    /*MAIN tablet*/
+    main {
+        height: 1000px;
+        flex-direction: column;
+        overflow: hidden;
     }
     
-    .inputForm::placeholder, .inputMessageForm::placeholder {
-      color: var(--color3);
-      font-family: 'Roboto', sans-serif;
-      font-size: 18px;
+    main img {
+        min-width: 100%;
+        height: 1000px;
+        max-height: 1000px;
     }
     
-    .inputMessageForm {
-      width: 220px;
-      height: 88px;
-      border-radius: 18px;
-      background-color: var(--color2);
-      box-shadow: 0 0 0 0;
-      border: 0 none;
-      outline: 0;
-      margin-bottom: 27px;
-      padding-left: 20px;
-      resize: none;
-      cursor: text;
+    div.conteudoMain {
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 40px;
     }
     
-    .buttonPosition {
-      width: 375px;
-      display: flex;
-      justify-content: flex-end;
+    div.saibaMaisHeader{
+        justify-content: space-between
     }
-    
-    .buttonForm{
-      width: 148.77px;
-      height: 46px;
-      margin-right: 120px;
-      border-radius:18px;
-      font-family: 'Roboto';
-      font-size: 18px;
-      background-color: var(--color2);
-      color: #65338C;
-      border-color: var(--color5);
-      border-style: solid;
-      border-width: 3px;
-      cursor: pointer;
-    }
-    
-    /*Vantagens de usar nosso APP*/
-    
+
+    /*Vantagens de usar nosso APP tablet*/
     .backgroundVantagens {
-      width: 100%;
-      height: 60px;
-      background: #64f0b9;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-     }
+        height: 550px;
+    }
     
     .window {
-      width: 1038px;
-      height: 601px;
-      background-color: var(--color2);
-      border-radius: 21px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: -80px;
-    }
-    h2#titulo{
-      width: 700px;
-      margin-top:-150px;
-      margin-right:100px;
-      margin-bottom:-100px;
-      font-size:30px;
-    }
-  .parContVant p{
-    margin-top:-50px;
-    margin-left: -150px;
-    margin-bottom: -100px;
-  }
-    div.conteudo {
-      width: 250px;
-      height: 504px;
-      display: flex;    
-      margin-right:500px;
-      margin-left:10px;
-      /*flex-direction: column;*/
-      align-items: center;
-      justify-content: space-between;
+        width: 90%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        justify-content: space-between;
+        top: -70px;
     }
     
-    .vantagensImagem {           
-      margin-left:500px;
-      margin-right:10px;
-      margin-top:150px
-      }
+    div.conteudo {
+        width: 55%;
+        justify-content: center;
+    }
+    
+    .vantagensImagem {
+        width: 40%;
+        margin-right: 0;
+        overflow: hidden;
+    }
     
     #imagemVantagens {
-      margin-top:00px;
-      margin-left:-10px;
-      position: relative;
-      width: 300.26px;
-      height: 300.26px;
+        width: 515px;
+        height: auto;
+        transform: translateX(-40%);
     }
     
     div.conteudo h2 {
-      color: var(--color5);
-    }
-    
-    div.conteudo h3 {
-      color: var(--color1);
-    }
-    
-    div.conteudo p {
-      color: var(--color3);
-    }
-    
-    .parContVant {
-      width: 50%;
-      height: 25px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    
-    span.material-symbols-outlined {
-      font-size: 46px;
-      color: var(--color3);
-    }
-    
-    .vantagensGeral {
-      width: 100%;
-      height: 330px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+        width: 85%;
+        margin-right: 15%;
+        margin-bottom: 20px;
     }
     
     .vantagensUnidade {
-      width: 100%;
-      height: 110px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+        width: 100%;
+        justify-content: flex-start;
     }
     
     .textosIconeVantagens {
-      width: 230px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-between;
-      margin: 0;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    /*MAIN mobile*/
+    main {
+        height: 1100px;
+        flex-direction: column;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 10px;
     }
     
-} 
-
-/*--------------------------*/
+    main img {
+        min-width: 100%;
+        height: 1100px;
+        max-height: 1100px;
+    }
     
-
-@media screen and (max-width: 600px) and (min-width: 375px){
-  #header {
-      background-color: red;
-  } /*isso Ã© um exemplo*/
-  #header {
-      width: 100%;
-      height: 75px;
-      background-color: var(--color1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-      left: 0px;
-      top: 0px;
-      z-index: 1;  
+    div.conteudoMain {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    div.paragrafosHeader {
+        align-items: center;
+        justify-content: center;
     }
 
-#logo {
-  width: 100px;
-}
-
-div#links {
-  width: 50%;
-  height: 75px;
-  margin-left: 1px;
-  margin-right: 850px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10 1px;
-}
-
-a#linkHeader {
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  color: var(--color2);
-  text-align: left;
-  transition: 0.2s linear;
-}
-
-a#linkHeader:hover {
-  color: var(--color6);
-}
-
-div.redes-sociais {
-  width: 10px;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 270px;
-}
-
-a#redeHeader {
-  width: 46px;
-  height: 46px;
-}
+    h1{
+        margin: 20px 0;
+    }
     
-a#redeHeader img{
-  width: 46px;
-  height: 46px;
-}
+    div.saibaMaisHeader{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80px;
+        margin: 20px 0;
+    }
+    
+    a.saibaMaisHeaderBotao {
+        margin-right: 0;
+    }
 
-    /*MAIN*/
-main {
-  margin: -30px 0 0;
-  width: 100%;
-  height: 750px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #575757;
- }     
- 
- main img {
-   width: 100%;
-   position: relative;
-   z-index: -1;
-   top: 0;
-   display: none;
- }
-
-  div.conteudoMain {
-    width: 500px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 45px;
-    margin-top:-150px;
-    padding: 30px;
-  }
-  div.paragrafosHeader {
-    width: 60%;
-    margin-left: 251px; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex;
-    justify-content: space-between;
-  }
-
-  div.saibaMaisHeader {
-    width: 10%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  a.saibaMaisHeaderBotao {
-    background-color: var(--color6);
-    width: 400px;
-    height: 25px;
-    margin-left: 20px;
-    margin-right: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: var(--color1);
-    transition: 0.2s linear;
-  }
-   
-  a.saibaMaisHeaderBotao:hover {
-    background-color: var(--color5);
-    color: var(--color2);
-  }
-
-   
-/*FormulÃ¡rio*/
-  .form{
-    width: 270px;
-    height: 450px;
-    background: var(--color4);
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 260px;
-    margin-left: -50px;
-  }
-
+    /*Formulário mobile*/
+    .form {
+        width: 100%;
+    }
+    
     .inputForm, input#email.inputForm {
-      width: 220px;
-      height: 37px;
-      border-radius: 28px;
-      background-color: var(--color2);
-      box-shadow: 0 0 0 0;
-      border: 0 none;
-      outline: 0;
-      margin-bottom: 27px;
-      padding-left: 20px;
-    }
-    
-    .inputForm::placeholder, .inputMessageForm::placeholder {
-      color: var(--color3);
-      font-family: 'Roboto', sans-serif;
-      font-size: 18px;
+        width: 85%;
     }
     
     .inputMessageForm {
-      width: 220px;
-      height: 88px;
-      border-radius: 18px;
-      background-color: var(--color2);
-      box-shadow: 0 0 0 0;
-      border: 0 none;
-      outline: 0;
-      margin-bottom: 27px;
-      padding-left: 20px;
-      resize: none;
-      cursor: text;
+        width: 85%;
     }
     
     .buttonPosition {
-      width: 375px;
-      display: flex;
-      justify-content: flex-end;
+        width: 85%;
+        display: flex;
+        justify-content: flex-end;
     }
     
-    .buttonForm{
-      width: 148.77px;
-      height: 46px;
-      margin-right: 120px;
-      border-radius:18px;
-      font-family: 'Roboto';
-      font-size: 18px;
-      background-color: var(--color2);
-      color: #65338C;
-      border-color: var(--color5);
-      border-style: solid;
-      border-width: 3px;
-      cursor: pointer;
-    }
-    
-    /*Vantagens de usar nosso APP*/
-    
+    /*Vantagens de usar nosso APP mobile*/
     .backgroundVantagens {
-      width: 100%;
-      height: 60px;
-      background: #64f0b9;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-     }
+        height: 870px;
+    }
     
     .window {
-      width: 1038px;
-      height: 601px;
-      background-color: var(--color2);
-      border-radius: 21px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: -80px;
-    }
-    h2#titulo{
-      width: 700px;
-      margin-top:-150px;
-      margin-right:100px;
-      margin-bottom:-100px;
-      font-size:30px;
-    }
-  .parContVant p{
-    margin-top:-50px;
-    margin-left: -150px;
-    margin-bottom: -100px;
-  }
-    div.conteudo {
-      width: 250px;
-      height: 504px;
-      display: flex;    
-      margin-right:500px;
-      margin-left:10px;
-      /*flex-direction: column;*/
-      align-items: center;
-      justify-content: space-between;
+        width: 90%;
+        height: 900px;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        flex-direction: column;
+        justify-content: center;
+        top: -70px;
     }
     
-    .vantagensImagem {           
-      margin-left:500px;
-      margin-right:10px;
-      margin-top:150px
-      }
+    div.conteudo {
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    
+    .vantagensImagem {
+        width: 100;
+        margin-right: 0;
+        overflow: hidden;
+    }
     
     #imagemVantagens {
-      margin-top:00px;
-      margin-left:-10px;
-      position: relative;
-      width: 300.26px;
-      height: 300.26px;
+        width: 100%;
+        height: auto;
     }
     
     div.conteudo h2 {
-      color: var(--color5);
-    }
-    
-    div.conteudo h3 {
-      color: var(--color1);
-    }
-    
-    div.conteudo p {
-      color: var(--color3);
-    }
-    
-    .parContVant {
-      width: 50%;
-      height: 25px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    
-    span.material-symbols-outlined {
-      font-size: 46px;
-      color: var(--color3);
-    }
-    
-    .vantagensGeral {
-      width: 100%;
-      height: 330px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+        width: 90%;
+        margin-right: 10%;
+        margin-bottom: 20px;
     }
     
     .vantagensUnidade {
-      width: 100%;
-      height: 110px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+        width: 100%;
+        justify-content: flex-start;
     }
     
     .textosIconeVantagens {
-      width: 230px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-between;
-      margin: 0;
+        margin-left: 20px;
     }
-    
-} 
+}

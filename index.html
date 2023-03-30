@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="style/jonathan-mq.css">
         <link rel="stylesheet" href="style/daniele-mq.css">
         <link rel="stylesheet" href="style/yan-mq.css">
+        <link rel="stylesheet" href="style/lucas-mq.css">
     </head>
     <body>    
         <!--HEADER-->   
@@ -29,6 +30,22 @@
                 <a id="redeHeader" href="https://linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
                 <a id="redeHeader" href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Logo Instagram"></a>
                 <a id="redeHeader" href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a>
+            </div>
+            <div id="linkMenu" class="linkMenu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+            <div id="menuMobile" class="menuMobile">
+                <nav>
+                    <ul>
+                        <li><a id="linkHeader" href="#faleConosco">Contato</a></li>
+                        <li><a id="linkHeader" href="#vantagens">Vantagens</a></li>
+                        <li><a id="linkHeader" href="#dados">Dados</a></li>
+                        <li><a id="linkHeader" href="#quemSomos">Empresa</a></li>
+                        <li><a id="linkHeader" href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -52,11 +69,11 @@
             <form class="form" action="#" method="post">
                 <input class="inputForm" id="nome" type="text" id="" value="" placeholder="Nome">
                 <input class="inputForm" id="email" type="email" id="" value="" placeholder="Email">
-                <input class="inputForm" id="nome-da-empresa" type="text" value="" placeholder="Nome da Empresa">
+                <input class="inputForm" id="nomeDaEmpresa" type="text" value="" placeholder="Nome da Empresa">
                 <!--<input class="inputMessageForm" id="comentario" type="text" value="" placeholder="Digite sua mensagem">-->
                 <textarea class="inputMessageForm" id="comentario" cols="30" rows="10" placeholder="Digite seu comentário"></textarea>
                 <div class="buttonPosition">
-                    <input class="buttonForm" type="submit" value="Enviar">
+                    <input class="buttonForm" id="formSubmit" type="submit" value="Enviar">
                 </div>
                 <!--<div class="buttonPosition">
                     <a href="#">
@@ -187,8 +204,7 @@
         <!--QUEM SOMOS CTA-->
         <div class="quemsomoscta">
             <p>Gostou do nosso app?</p>
-            <h2>Leve a Business News</h2>
-            <h2>para sua empresa</h2>
+            <h2 class="ctaTitulo">Leve a Business News<br>para sua empresa</h2>
             <a class="quemsomosctaLink" href="#">Vamos lá!</a>
         </div>
 
@@ -200,22 +216,22 @@
                 <div class="containerSpanDepoimentos">
                     <img class="depoimentosAspas" src="img/aspas.png" alt="">
                 </div>
-                <div class="depoimentosPerfilContainer"></div>
+                <div class="espacoDepoimento depoimentosPerfilContainer"></div> <!--Essa linha da um espaço em cima-->
                 <div class="depoimentosPerfilParagrafo">
-                    <p>“ Gostaria de expressar minha gratidão à equipe da "Business News" pelo incrível aplicativo de notícias que eles desenvolveram. Desde que comecei a usá-lo, tenho me mantido atualizada com as últimas notícias relacionadas ao meu setor de negócios, o que me permitiu tomar decisões mais informadas e estratégicas. Além disso, o aplicativo é intuitivo e fácil de usar, o que o torna uma ferramenta indispensável para a minha empresa. ”</p>
+                    <p id="userComment">“ Gostaria de expressar minha gratidão à equipe da "Business News" pelo incrível aplicativo de notícias que eles desenvolveram. Desde que comecei a usá-lo, tenho me mantido atualizada com as últimas notícias relacionadas ao meu setor de negócios, o que me permitiu tomar decisões mais informadas e estratégicas. Além disso, o aplicativo é intuitivo e fácil de usar, o que o torna uma ferramenta indispensável para a minha empresa. ”</p>
                 </div>
                 <div class="depoimentosPerfilContainer">
-                    <img class="depoimentosPerfilFoto" src="img/fotoPerfil1.png">
+                    <img id="userImg" class="depoimentosPerfilFoto" src="img/fotoPerfil1.png">
                     <div class="depoimentosPerfilContainerTitulos">
-                        <h3>Sara Oliveira</h3>
-                        <p>CEO Tech Solutions</p>
+                        <h3 id="userName">Sara Oliveira</h3>
+                        <p id="userCompany">CEO Tech Solutions</p>
                     </div>
                 </div>
                 <div class="box2">
-                    <span class="material-symbols-outlined depoimentosSetas">
+                    <span class="material-symbols-outlined depoimentosSetas" id="btnLeft">
                         arrow_circle_left
                     </span>
-                    <span class="material-symbols-outlined depoimentosSetas">
+                    <span class="material-symbols-outlined depoimentosSetas" id="btnRight">
                         arrow_circle_right
                     </span>
                 </div>
@@ -231,9 +247,9 @@
         </div>
 
         <!--FOOTER GERAL-->
-
+    
         <footer class="rodape">
-
+    
             <!--NEWSLETTER-->
             <div class="newsletterContainer">
                 <div class="newsletterTitulos">
@@ -241,8 +257,8 @@
                     <p>Fique por dentro das nossas notícias</p>
                 </div>
                 <form class="newsletterForm"> 
-                    <input class="inputForm inputFormFooter" type="email" id="email" placeholder="Digite seu email">
-                    <input class="botaoFooterEnviar" type="submit" value="Enviar">
+                    <input class="inputForm inputFormFooter" type="email" id="footerEmail" placeholder="Digite seu email">
+                    <input class="botaoFooterEnviar" type="submit" id="footerBtnSubmit" value="Enviar">
                     <!--<a class="botaoFooterEnviar" href="#">Enviar</a>-->
                 </form>          
             </div>
@@ -251,7 +267,7 @@
             <div class="footerContent">
                 <div class="footerContentLogo">
                     <img class="footerLogo" src="img/logoPrincipal.png">
-                <p>Tome decisões sobre mercado, concorrência, desenvolvimento de produtos e estratégias de marketing pautadas em dados, informações e análises.</p>
+                    <p>Tome decisões sobre mercado, concorrência, desenvolvimento de produtos e estratégias de marketing pautadas em dados, informações e análises.</p>
                 </div>
                 <div class="footerContentMenu">
                     <h3>Menu</h3>
@@ -270,7 +286,7 @@
                 </div>
                 <div class="footerContentRedes">
                     <h3>Redes Sociais</h3>
-                    <div class="redes-sociais redes-sociaisFooter">
+                    <div class="redes-sociaisFooter">
                         <a id="redeHeader" href="https://linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="Logo Linkedin"></a>
                         <a id="redeHeader" href="https://instagram.com/" target="_blank"><img src="img/instagram.png" alt="Logo Instagram"></a>
                         <a id="redeHeader" href="https://facebook.com/" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a>
