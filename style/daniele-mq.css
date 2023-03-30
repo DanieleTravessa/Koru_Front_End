@@ -319,6 +319,7 @@ main {
 
 /*--------------------------*/
     
+
 @media screen and (max-width: 600px) and (min-width: 375px){
   #header {
       background-color: red;

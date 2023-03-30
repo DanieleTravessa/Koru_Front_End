@@ -689,8 +689,7 @@ div.footerCopyLeft {
   justify-content: center;
 }
 
-div.footerCopyRight {
-  
+div.footerCopyRight {  
   height: 75px;
   display: flex;
   align-items: center;
