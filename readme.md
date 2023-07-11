@@ -29,3 +29,5 @@ O projeto foi realizado ao longo de 4 semanas.
 - **PhotoShop**
 - **Git/GitHub**
 - **VSCode**
+
+[Link para o PPT da apresentação](https://drive.google.com/file/d/1WRa89I6p5Mt-OwSJpSMswH_gstYDjaem/view?usp=sharing)
